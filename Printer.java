@@ -5,7 +5,7 @@ public class Printer {
     private static Printer INSTANCE;
 
     // step-1
-    public Printer() {
+    private Printer() {
         System.out.println("No Arg Constructer");
     }
 
